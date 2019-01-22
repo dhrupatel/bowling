@@ -1,0 +1,4 @@
+ Z←bowling R;b;c2n;m;r;∆
+ m←(2 1⌊¯2↑∆),⍨¯2↓∆←↑1++/(⊂⍳⍴R)∊¨1 2 1+2 1/⍸¨↓'X/'∘.∊R ←R~' '           ⍝ multiplier vector
+ (b/r)←⊃¨10-(1⌽b←'/'∊¨r)/r← {(0 0 '/',⍳10)[(' -/123456789X')⍳R]}       ⍝ replace '/' with number
+ Z←+/m×r       
